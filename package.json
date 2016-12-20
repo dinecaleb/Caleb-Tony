@@ -1,0 +1,35 @@
+{
+  "name": "caleb-tony",
+  "version": "1.0.0",
+  "description": "A website for me to share my work online ",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "open http://localhost:3000 && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseokeya/Caleb-Tony.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Firebase",
+    "expressjs",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Caleb Tony & Jesse Okeya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesseokeya/Caleb-Tony/issues"
+  },
+  "homepage": "https://github.com/jesseokeya/Caleb-Tony#readme"
+}
