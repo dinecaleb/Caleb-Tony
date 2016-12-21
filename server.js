@@ -13,10 +13,8 @@ router.get('/:user', function(req, res){
 });
 
 router.get('/aboutme', function(req, res){
-  res.send("hey");
+  res.sendFile(path.join(__dirname, './www', 'index.html'));
 });
-
-
 
 app.listen(port, function(){
   console.log('Server live at http://localhost:' + port);
