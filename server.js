@@ -12,6 +12,10 @@ router.get('/:user', function(req, res){
   res.send(req.params.user);
 });
 
+router.get('/aboutme', function(req, res){
+  res.send("hey");
+});
+
 
 
 app.listen(port, function(){
