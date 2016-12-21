@@ -1,0 +1,8 @@
+{
+  "name": "caleb-tony",
+  "description": "A website for me to share my work online",
+  "keywords": ["Node.js", "HTML5", "Css", "expressJs"],
+  "repository": "https://github.com/jesseokeya/Caleb-Tony",
+  "logo": "https://small-sharp-tool.com/logo.svg",
+  "image": "heroku/nodejs",
+}
