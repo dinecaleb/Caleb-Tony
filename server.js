@@ -1,5 +1,6 @@
 var express = require('express');
 var path = require("path");
+var open = require("open");
 
 var app = express();
 var router = express.Router();
@@ -18,4 +19,5 @@ router.get('/aboutme', function(req, res){
 
 app.listen(port, function(){
   console.log('Server live at http://localhost:' + port);
+  open('http://localhost:' + port);
 });

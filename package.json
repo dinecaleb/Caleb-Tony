@@ -7,7 +7,9 @@
     "express": "^4.14.0",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "open": "0.0.5"
+  },
   "scripts": {
     "start": "nodemon server.js"
   },
