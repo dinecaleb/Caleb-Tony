@@ -13,7 +13,7 @@ router.get('/:user', function(req, res){
 });
 
 router.get('/aboutme', function(req, res){
-  res.sendFile(path.join(__dirname, './www', 'index.html'));
+  res.sendFile(path.join(__dirname, './www', 'contact.html'));
 });
 
 app.listen(port, function(){
